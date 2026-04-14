@@ -44,24 +44,24 @@ export function Event({ openEnvelope }: any) {
           className={` overflow-hidden rounded-xs h-screen bg-cover bg-center content-center  bg-[#ffffff] text-center text-base`}
         >
           <div className=" text-center flex flex-col gap-3  py-10 px-5">
-            <h3 className="FontArmDecorativeU  relative text-3xl text-vrayi">
+            <h3 className="FontArmDecorativeU z-0 relative text-3xl text-vrayi">
               {first.txt1}
-              <p className="FontArmDecorativeU absolute z-1 text-4xl top-3 left-1/2 -translate-x-1/2 text-hetevi">
+              <p className="FontArmDecorativeU absolute -z-1 text-4xl top-3 left-1/2 -translate-x-1/2 text-hetevi">
                 {first.txt1}
               </p>
             </h3>
-            <h3 className="FontArmDecorativeU relative text-2xl text-vrayi">
+            <h3 className="FontArmDecorativeU relative z-0 text-2xl text-vrayi">
               {first.txt2}
-              <p className="FontArmDecorativeU text-nowrap absolute z-1 text-4xl top-3 left-1/2 -translate-x-1/2 text-hetevi">
+              <p className="FontArmDecorativeU text-nowrap absolute -z-1 text-4xl top-3 left-1/2 -translate-x-1/2 text-hetevi">
                 {first.txt2}
               </p>
             </h3>
-            <h3 className="FontArmDecorativeU bold text-vrayi relative my-4 text-8xl">
+            <h3 className="FontArmDecorativeU bold text-vrayi relative z-0 my-4 text-8xl">
               {first.age}
             </h3>
-            <h3 className="FontArmDecorativeU relative text-xl text-vrayi">
+            <h3 className="FontArmDecorativeU relative z-0 text-xl text-vrayi">
               {first.txt3}
-              <p className="FontArmDecorativeU absolute z-1 text-4xl top-0 left-1/2 -translate-x-1/2 text-hetevi">
+              <p className="FontArmDecorativeU absolute -z-1 text-4xl top-0 left-1/2 -translate-x-1/2 text-hetevi">
                 {first.txt3}
               </p>
             </h3>

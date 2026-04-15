@@ -6,7 +6,7 @@ export function Envelop({ openEnvelope, setOpenEnvelope }: any) {
 
   return (
     <div
-      className={`${openEnvelope ? "hidden" : ""} bg-[#EFCCC8] w-screen h-screen overflow-hidden flex py-50 `}
+      className={`${openEnvelope ? "hidden" : ""} bg-[#EFCCC8] w-screen h-dvh overflow-hidden flex py-50 `}
     >
       <div className=" m-auto mt-10 relative w-75 h-25 md:w-150 md:h-50">
         <div className="TopBlack absolute z-5 md:-top-100 md:w-400 md:h-100 -top-50 w-200 h-50 bg-[#EFCCC8]"></div>
